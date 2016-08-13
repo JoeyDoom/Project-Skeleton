@@ -30,3 +30,4 @@ This is basically a skeleton file structure for setting up a new project. It als
 ## Issues ##
 * I'm sure little things will get tweaked as we start actually using this more often
 * It's fairly easy to set this up to work with .scss instead of .sass, but it's not automatic. I'd like to make it automatic eventually.
+* Need to fix the file structure for the dev preview things.

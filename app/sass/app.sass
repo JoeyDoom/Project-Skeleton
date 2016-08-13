@@ -1,0 +1,32 @@
+@import variables
+@import functions
+@import helpers
+@import mixins
+@import type
+
+
+///////////////////////////////////////////////
+// GENERAL SITE STUFF
+///////////////////////////////////////////////
+
+body
+	background-color: #FFF
+	margin: 0px
+	line-height: $base__line / $base__font-size
+	font-family: $font-family--primary
+	font-size: $base__font-size
+	color: black
+
+	@include mq(small)
+		font-size: 16px
+		line-height: 1.5
+
+img
+	max-width: 100%
+
+a
+	color: $color-primary
+	border-color: $color-primary
+
+
+@import 'header' 

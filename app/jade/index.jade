@@ -1,0 +1,25 @@
+doctype html
+html(lang="en")
+  head
+    
+    // Title
+    title Project Skeleton
+
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+
+    // build:css css/styles.min.css
+    link(rel="stylesheet", href="../bower_components/normalize-css/normalize.css")
+    link(rel="stylesheet", href="css/app.css")
+    // endbuild
+
+  body
+
+      include partials/_header.jade
+
+
+
+
+  // build:js js/app.min.js
+  script(src="../bower_components/jquery/dist/jquery.js")
+  script(src="js/app.js")
+  // endbuild
